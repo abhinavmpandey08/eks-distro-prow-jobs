@@ -19,7 +19,7 @@ presubmits:
     # TODO: tweak to only run if Makefile, build, release branch files change
     run_if_changed: "projects/kubernetes/kubernetes/.*"
     max_concurrency: 10
-    cluster: "prow-presubmits-cluster"
+    cluster: "prow-postsubmits-cluster"
     skip_report: false
     decoration_config:
       gcs_configuration:

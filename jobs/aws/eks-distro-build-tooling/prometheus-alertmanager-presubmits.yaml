@@ -18,7 +18,7 @@ presubmits:
     always_run: false
     run_if_changed: "projects/prometheus/alertmanager/.*"
     max_concurrency: 10
-    cluster: "prow-presubmits-cluster"
+    cluster: "prow-postsubmits-cluster"
     skip_report: false
     decoration_config:
       gcs_configuration:
