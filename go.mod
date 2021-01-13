@@ -1,4 +1,4 @@
-module github.com/aws/eks-distro-prow-jobs
+module github.com/abhinavmpandey08/eks-distro-prow-jobs
 
 go 1.13
 
