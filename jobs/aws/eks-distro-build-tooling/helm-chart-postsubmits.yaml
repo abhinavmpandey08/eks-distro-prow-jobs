@@ -37,3 +37,4 @@ postsubmits:
         - -c
         - >
           make release -C helm-charts
+
